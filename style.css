@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b2b2d2;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+
+}
+
+/* Label styling */
+#label {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+/* Button container */
+#btn {
+    margin-top: 20px;
+}
+
+/* Buttons styling */
+button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Specific button colors */
+#decreasebtn {
+    background-color: #dc3545;
+}
+#decreasebtn:hover {
+    background-color: #a71d2a;
+}
+
+#resetbtn {
+    background-color: #6c757d;
+}
+#resetbtn:hover {
+    background-color: #494f54;
+}
+
+#increasebtn {
+    background-color: #28a745;
+}
+#increasebtn:hover {
+    background-color: #1e7e34;
+}
+#boder{
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: #007BFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
